@@ -29,7 +29,6 @@ load_env()
 
 # Get API keys
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 print("\n" + "="*60)
 print("API KEY STATUS:")
@@ -39,13 +38,5 @@ if ANTHROPIC_API_KEY:
 else:
     print("✗ ANTHROPIC_API_KEY not found")
 
-if OPENAI_API_KEY:
-    print(f"✓ OPENAI_API_KEY loaded: {OPENAI_API_KEY[:10]}...")
-else:
-    print("✗ OPENAI_API_KEY not found")
-print("="*60 + "\n")
-
 if not ANTHROPIC_API_KEY:
     raise ValueError("ANTHROPIC_API_KEY not found in .env file or environment")
-if not OPENAI_API_KEY:
-    raise ValueError("OPENAI_API_KEY not found in .env file or environment")
