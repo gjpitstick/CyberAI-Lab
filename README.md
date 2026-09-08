@@ -1,4 +1,4 @@
-# Applied AI for Cybersecurity (IT7075C)
+# Applied AI for Cybersecurity (IT7075C) - Gus Pitstick
 
 Course materials for **IT7075C — Applied Artificial Intelligence for Cybersecurity**, a graduate
 course in the School of Information Technology, University of Cincinnati. Instructor: **Chengcheng
